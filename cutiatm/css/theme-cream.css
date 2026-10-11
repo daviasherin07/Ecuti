@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family:'Poppins',Arial,sans-serif!important;
+    box-sizing:border-box!important;
+}
+
+body,html{
+    margin:0!important;
+    padding:0!important;
+    background:#f8f3ed!important;
+    color:#3b271c!important;
+}
+
+/* WRAPPER */
+#wrapper{
+    background:#f8f3ed!important;
+}
+
+/* HEADER */
+#header{
+    background:linear-gradient(135deg,#f8ead9,#ead2b8)!important;
+    color:#4b2f1d!important;
+    box-shadow:0 10px 25px rgba(0,0,0,.08)!important;
+}
+
+/* SIDEBAR */
+#sidebar-wrapper{
+    background:linear-gradient(180deg,#8a5737,#5d331d)!important;
+}
+
+/* CONTENT */
+#content-wrapper{
+    background:#f8f3ed!important;
+}
+
+/* CARD */
+.gruptest,#view,.panel{
+    background:#fffaf3!important;
+    border-radius:22px!important;
+    box-shadow:0 15px 35px rgba(0,0,0,.08)!important;
+    border:1px solid #eadfd4!important;
+}
+
+/* TABLE */
+table th{
+    background:#f3e3d1!important;
+    color:#3b271c!important;
+    font-weight:900!important;
+}
+
+table td{
+    background:#fffaf3!important;
+    color:#4b2f1d!important;
+}
+
+/* BUTTON */
+button,
+.btn,
+input[type=submit],
+input[type=button],
+.btn-success,
+.btn-primary{
+    background:linear-gradient(135deg,#9a633f,#6d3f25)!important;
+    color:#fff!important;
+    border-radius:12px!important;
+    border:none!important;
+}
+
+/* HOVER */
+button:hover,
+.btn:hover{
+    filter:brightness(.95)!important;
+}
+
+/* INPUT */
+input,select,textarea{
+    border-radius:12px!important;
+    border:1px solid #d8c7b8!important;
+    background:#fffdf9!important;
+    color:#3b271c!important;
+}
+
+input:focus,select:focus,textarea:focus{
+    border-color:#9a633f!important;
+    box-shadow:0 0 0 4px rgba(154,99,63,.15)!important;
+}
+
+/* MENU */
+.menu>li>a{
+    background:rgba(255,255,255,.12)!important;
+    color:#fffaf3!important;
+    border-radius:14px!important;
+}
+
+.menu>li>a:hover,
+.menu>li>a.active{
+    background:#fffaf3!important;
+    color:#5d331d!important;
+}
+
+/* MODAL */
+.modal-header{
+    background:linear-gradient(135deg,#9a633f,#6d3f25)!important;
+    color:#fff!important;
+}
+
+.modal-body{
+    background:#fffaf3!important;
+}
+
+.topbar-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
